@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata:
    name: myweb-rs
 spec:
-   replicas: 4
+   replicas: 2
    selector:
      matchExpressions:
        - { key: env, operator: In, values: [ testing ] }
